@@ -10,15 +10,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Work+Sans:400,500,600,700');
 
-/* Import CSS */
-
-@import '../css/bootstrap/bootstrap.min.css';
-@import '../css/others/animate.css';
-@import '../css/others/magnific-popup.css';
-@import '../css/others/owl.carousel.min.css';
-@import '../css/others/font-awesome.min.css';
-@import '../css/others/pe-icon-7-stroke.css';
-
 /* Base CSS */
 
 * {
@@ -587,7 +578,7 @@ li {
     position: fixed;
     width: 100%;
     z-index: 9999;
-    height: 100px;
+    height: 80px;
     top: 0;
     left: 0;
     z-index: 99;
