@@ -657,7 +657,7 @@ li {
 
 .single-hero-slides:after {
     position: absolute;
-    width: calc(50% - 112px);
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
     top: 0;
