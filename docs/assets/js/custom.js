@@ -1,5 +1,19 @@
 (function ($) {
   "use strict";
+  
+  $('.carousel').slick({
+  slidesToShow: 5,
+  autoplay: true,
+  nav: false,
+  arrow:false,
+  infinite:true,
+  centerMode: true,
+  
+    prevArrow: false,
+    nextArrow: false,
+  });
+
+// Slick version 1.5.8
 
   var review = $('.player_info_item');
   if (review.length) {
@@ -142,7 +156,6 @@ $("#search_1").on("click", function () {
 $("#close_search").on("click", function () {
   $('#search_input_box').slideUp(500);
 });
-
 
 
 }(jQuery));
